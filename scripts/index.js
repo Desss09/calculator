@@ -13,7 +13,7 @@ function init() {
     //wire up the fuctions to the click of the buttons
     addButton.addEventListener("click", add)
     subtractButton.addEventListener("click",subtract)
-    multiplyButtonButton.addEventListener("click", multiply)
+    multiplyButton.addEventListener("click",multiply)
     divideButton.addEventListener("click", divide)
 
 
@@ -43,7 +43,7 @@ function subtract() {
     document.querySelector('#answerField').value = result;
 }
 //create multiply function that gets num1 and num2 of the page and sums then
-function Multiply() {
+function multiply() {
 
     let number1 = Number(document.querySelector("#number1Field").value)
     let number2 = Number(document.querySelector("#number2Field").value)
@@ -55,7 +55,7 @@ function Multiply() {
     document.querySelector('#answerField').value = result;
 }
 //create divide function that gets num1 and num2 of the page and sums then
-function Divide() {
+function divide() {
 
     let number1 = Number(document.querySelector("#number1Field").value)
     let number2 = Number(document.querySelector("#number2Field").value)
